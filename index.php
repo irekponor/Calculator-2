@@ -56,7 +56,7 @@
                     $value = $num01 / $num02;
                     break;
                 default:
-                    echo "<p class='error'>Write numbers only!</p>"
+                    echo "<p class='error'>Somethign went HORRIBLY FUCKING wrong!</p>";
             }
         }
     }
