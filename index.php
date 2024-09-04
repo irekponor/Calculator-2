@@ -46,6 +46,15 @@
                 case "add";
                     $value = $num01 + $num02;
                     break;
+                case "subtract";
+                    $value = $num01 - $num02;
+                    break;
+                case "multiply";
+                    $value = $num01 * $num02;
+                    break;
+                case "divide";
+                    $value = $num01 / $num02;
+                    break;
             }
         }
     }
