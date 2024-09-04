@@ -42,6 +42,7 @@
 
         // Calculate without numbers without errors
         if (!$errors) {
+            $value = 0;
             switch ($operator) {
                 case "add":
                     $value = $num01 + $num02;
@@ -58,6 +59,8 @@
                 default:
                     echo "<p class='error'>Somethign went HORRIBLY FUCKING wrong!</p>";
             }
+
+            echo "<p class='result'> Result = " . $value . "</p>";
         }
     }
 
