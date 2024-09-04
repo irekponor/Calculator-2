@@ -39,6 +39,15 @@
             echo "<p class='error'>Write numbers only!</p>";
             $errors = true;
         }
+
+        // Calculate without numbers without errors
+        if (!$errors) {
+            switch ($operator) {
+                case "add";
+                    $value = $num01 + $num02;
+                    break;
+            }
+        }
     }
 
     ?>
