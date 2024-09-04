@@ -1,0 +1,23 @@
+*{
+    background-color: white;
+}
+form{
+    padding-top: 10rem;
+    padding-left: 33rem;
+}
+input{
+    text-align: center;
+    display: block;
+    border: 2px solid #000000;
+}
+select{
+    margin: 0px 0px 14px 65px;
+}
+button{
+    padding: 10px;
+    margin: 14px 0px 0px 40px;
+    background: #000000;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
