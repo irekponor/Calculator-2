@@ -36,7 +36,7 @@
             $errors = true;
         }
         if (!is_numeric($num01) || !is_numeric($num02)) {
-            echo "<p class='error'>input numbers only!</p>";
+            echo "<p class='error'>Input numbers only!</p>";
             $errors = true;
         }
 
