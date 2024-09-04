@@ -36,25 +36,27 @@
             $errors = true;
         }
         if (!is_numeric($num01) || !is_numeric($num02)) {
-            echo "<p class='error'>Write numbers only!</p>";
+            echo "<p class='error'>input numbers only!</p>";
             $errors = true;
         }
 
         // Calculate without numbers without errors
         if (!$errors) {
             switch ($operator) {
-                case "add";
+                case "add":
                     $value = $num01 + $num02;
                     break;
-                case "subtract";
+                case "subtract":
                     $value = $num01 - $num02;
                     break;
-                case "multiply";
+                case "multiply":
                     $value = $num01 * $num02;
                     break;
-                case "divide";
+                case "divide":
                     $value = $num01 / $num02;
                     break;
+                default:
+                    echo "<p class='error'>Write numbers only!</p>"
             }
         }
     }
