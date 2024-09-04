@@ -26,9 +26,8 @@ button{
     border-radius: 10px;
 }
 
-.error{
+.error {
    color: red;
-   display: hidden;
 }
 
 .result {
