@@ -24,6 +24,7 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $num01 = $_POST["num01"];
     }
     ?>
 </body>
