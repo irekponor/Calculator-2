@@ -27,12 +27,13 @@ button{
 }
 
 .error {
-   font-size: 17px;
+   font-size: 20px;
    color: red;
-   padding-left: 33rem;
+   padding-left: 34rem;
 }
 
 .result {
     color: #000000;
-    padding-left: 33rem;
+    padding-left: 34rem;
+    font-size: 24px;
 }
